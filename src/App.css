@@ -1,0 +1,118 @@
+html, body {
+  font-family: 'Lato';
+  width: 100%;
+  height: 100%;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.bg-grad {
+  background: linear-gradient(45deg,#7DDBFF,#D755CE);
+  color: white;
+}
+
+.color-grad {
+  background: linear-gradient(-45deg,#7DDBFF 0%,#D755CE 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.color-green {
+  background: linear-gradient(-45deg,#00BB0C 0%,#59FF77 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.color-fb {
+  background: linear-gradient(-45deg,#252DE0 0%,#7E83FF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.color-ig {
+  background: linear-gradient(-45deg,#7B03CC 40%,#E5009F 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bg-grad2 {
+  background: linear-gradient(-45deg,#7DDBFF,#D755CE);
+  color: white;
+}
+
+.bg-gray {
+  background-color: #EDEDED;
+}
+
+.bg-prf {
+  background-image: url('./img/bg-prf.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 130px;
+}
+
+.bg-prf .overhead {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 130px;
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+}
+
+.left-bottom {
+  padding: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.text-sm {
+  font-size: 0.8rem;
+  line-height: 1.2;
+}
+
+.bg-gray {
+  background-color: #E7E7E7;
+}
+
+.round-prf {
+  background-image: url('./img/profile.jpg');
+  background-size: cover;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 20px;
+  background-color: white;
+  border-radius: 50%;
+}
